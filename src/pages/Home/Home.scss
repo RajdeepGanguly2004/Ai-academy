@@ -1,0 +1,69 @@
+.input-container {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  width: 97%;
+  padding: 0 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #969494;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.searching {
+  width: 300px;
+  height: 40px;
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.input-container button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: transparent;
+}
+.home_text{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 455px;
+  height: 400px;
+  // overflow-y: scroll;
+}
+.display-api{
+  display: flex;
+    gap: 10px 
+}
+.display-api2 span{
+  // width: 130rem;
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.display-api2 span button{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.display-api2 p{
+  display: flex;
+}
+
+span button{
+  height: 0px;
+  width: 0px;
+  padding: 10px;
+}

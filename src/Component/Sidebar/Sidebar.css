@@ -1,0 +1,175 @@
+#page-wrap {
+  text-align: center;
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+.bm-menu-wrap {
+  top: 0;
+  left: 0px;
+  /* text-align: center; */
+  position: absolute;
+  display: inline-table;
+}
+
+/* Individual item */
+.bm-item {
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 20px;
+  height: 15px;
+  left: 25px;
+  top: 24px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Position and sizing of clickable cross button */
+/* .bm-cross-button {
+  height: 24px;
+  width: 24px;
+  background: black;
+} */
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #1e1e1e;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background-color: #1e1e1e;
+  /* padding: 2.5em 1.5em 0; */
+  font-size: 1.15em;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #bcbcbc;
+  margin: 3rem;
+  padding-left: 20px;
+  /* text-decoration: none;
+  font-size: 15px; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  /* justify-content: space-between; */
+}
+
+.bm-item-list h3 {
+  /* height: 1.5em;
+  width: 1.5em; */
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  /* justify-content: space-between; */
+  font-weight: bold;
+}
+
+.bm-item-list h3 svg {
+  height: 1.5em;
+  width: 1.2em;
+}
+
+.bm-item-list h3 span {
+  display: flex;
+  margin-left: 30px;
+  /* width: 100%;
+  height: 100%; */
+  /* font-size: 2.5rem; */
+}
+
+/* .bm-item-list .full-list{
+  display: flex;
+  justify-content: space-between;
+} */
+/* Styling of overlay */
+.bm-overlay {
+  background: #1e1e1e;
+}
+
+.bm-menu .new-chat {
+  background-color: #1e1e1e;
+  color: white;
+  border-style: solid;
+  border-color: #d1d1d1;
+  /* cursor: pointer; */
+  padding: 1rem 4rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  position: static;
+  top: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Chat {
+  display: flex;
+  justify-content: center;
+}
+
+.Chat .menu-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Chat {
+  /* display: flex; */
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0);
+  position: relative;
+  /* display: inline-flex;
+  align-items: center; */
+  /* width: 70%; */
+  height: 0px;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 64px;
+  border: none;
+  outline: none;
+  line-height: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  overflow: visible;
+}
+
+.full-list {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  height: 45%;
+  position: absolute;
+  top: 35rem;
+  text-decoration: none;
+}/*# sourceMappingURL=Sidebar.css.map */

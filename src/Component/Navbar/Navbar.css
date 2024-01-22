@@ -1,0 +1,27 @@
+.navbar {
+  background: #1e1e1e;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 6.4rem;
+}
+
+.navbar .nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.navbar .nav .nav_title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.sign-in-icon {
+  margin-right: 20px;
+}/*# sourceMappingURL=Navbar.css.map */
